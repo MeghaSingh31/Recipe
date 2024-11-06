@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "8837DFEC-D434-4FAA-8345-5514FA77C62C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:RecipeApp.xcodeproj",
+      "identifier" : "1724134F2CC04FD8004C3987",
+      "name" : "RecipeApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:RecipeApp.xcodeproj",
+        "identifier" : "1724135F2CC04FDA004C3987",
+        "name" : "RecipeAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:RecipeApp.xcodeproj",
+        "identifier" : "172413692CC04FDA004C3987",
+        "name" : "RecipeAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
